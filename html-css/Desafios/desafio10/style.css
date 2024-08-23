@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+#titulo{
+    font-family: android;
+    color: #1A5C38;
+}
+.destaque{
+    font-family: android;
+    font-size:20px;
+    color: #1A5C38;
+    background-image: linear-gradient(to right, #C8ECD8, #E0F5E9,white );
+}
+header{
+    background-image: linear-gradient(to bottom, #3CD681,#33B66D, #2C9C5E,#207043,#1A5C38);
+    padding: 20px 20px 0px 0px;
+
+}
+#title{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+#p{
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 2px 20px ;
+}
+a:hover{
+    background-color: rgba(255, 255, 255, 0.247);
+}
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+#principal{
+    background-color: white;
+    display: block;
+    width: 800px;
+    height:1350px;
+    padding: 30px;
+    margin: auto;
+    text-align: justify;
+    box-shadow: 1px 2px 10px 0px black;
+}
+.paragrafo{
+    text-indent: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#video{
+    background-color: #1A5C38;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 800px;
+    height: 450px;
+    padding: 20px 30px;
+    box-shadow: 1px 2px 10px 0px black;
+
+}
+#final{
+    background-color:white ;
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    padding: 20px 30px;
+    box-shadow: 1px 2px 10px 0px black;
+}
+#mais{
+    background-color: #2FA866;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-weight: bold;
+    
+}
+#lista{
+    background-color: #C5EBD6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 350px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    margin: 0%;
+}
+strong{
+    color: #2C6848;
+    font-weight: bold ;
+}
+.imgg{
+    text-align: center;
+    margin: auto;
+}
+footer{
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.strong{
+    color: white;
+}
+p{
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.link{
+    text-decoration: none;
+    color: #1A5C38;
+    font-weight: bold;
+}
+.link:hover{
+    background-color: #84e1ac63;
+}
+td{
+    padding-right: 200px;
+}
