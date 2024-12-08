@@ -23,7 +23,7 @@ header > h1{
 /*menu hamburguer*/
 #burguer{
     background-color: rgb(48, 48, 48);
-    width: 96vw;
+    width: 100vw;
     display: block;
     color: white;
     text-align: center;
@@ -47,6 +47,7 @@ menu > ul{
 menu > ul > li > a{
     display: block;
     padding: 10px;
+    margin: auto;
     text-decoration: none;
     text-align: center;
     background-color: rgb(87, 87, 87);
