@@ -28,6 +28,22 @@ header nav{
     border: 1px dotted black;
 }
 
+a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+    transition: background-color .5s;
+}
+
 main{
     background-color:white ;
     padding: 10px;
